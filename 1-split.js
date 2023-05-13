@@ -9,4 +9,4 @@ function splitString(inputString) {
     return splitArray
 }
 
-console.log(splitString('Hello\tworld\nthis is a test'))
+console.log(splitString(process.argv[2]))
